@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.12/48e4e5d60309ebd833bc528dcf77668eab3cd72c/lombok-1.18.12.jar" />
+        </processorPath>
+        <module name="redis-reactive-cache.app-service.test" />
+        <module name="redis-reactive-cache.reactive-web.test" />
+        <module name="redis-reactive-cache.dynamodb-fallback.main" />
+        <module name="redis-reactive-cache.reactive-repository-commons.test" />
+        <module name="redis-reactive-cache.usecase.test" />
+        <module name="redis-reactive-cache.mongodb-repository.main" />
+        <module name="redis-reactive-cache.mongodb-repository.test" />
+        <module name="redis-reactive-cache.app-service.main" />
+        <module name="redis-reactive-cache.reactive-repository-commons.main" />
+        <module name="redis-reactive-cache.usecase.main" />
+        <module name="redis-reactive-cache.model.main" />
+        <module name="redis-reactive-cache.reactive-web.main" />
+        <module name="redis-reactive-cache.dynamodb-fallback.test" />
+        <module name="redis-reactive-cache.model.test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="14" />
+  </component>
+</project>

@@ -1,0 +1,16 @@
+rootProject.name = 'redis-reactive-cache'
+
+include ':app-service'
+include ':model'
+include ':usecase'
+project(':app-service').projectDir = file('./applications/app-service')
+project(':model').projectDir = file('./domain/model')
+project(':usecase').projectDir = file('./domain/usecase')
+include ':reactive-web'
+project(':reactive-web').projectDir = file('./infrastructure/entry-points/reactive-web')
+include ':dynamodb-fallback'
+project(':dynamodb-fallback').projectDir = file('./infrastructure/driven-adapters/dynamodb-fallback')
+include ':reactive-repository-commons'
+project(':reactive-repository-commons').projectDir = file('./infrastructure/helpers/reactive-repository-commons')
+include ':mongodb-repository'
+project(':mongodb-repository').projectDir = file('./infrastructure/driven-adapters/mongodb-repository')
