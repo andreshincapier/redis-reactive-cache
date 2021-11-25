@@ -1,4 +1,4 @@
-package co.com.rediscache.mongodb.mutants;
+package co.com.rediscache.mongodb;
 
 import org.springframework.data.repository.query.ReactiveQueryByExampleExecutor;
 import org.springframework.data.repository.reactive.ReactiveCrudRepository;

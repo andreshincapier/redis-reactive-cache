@@ -1,4 +1,4 @@
-package co.com.rediscache.mongodb.mutants;
+package co.com.rediscache.mongodb;
 
 import co.com.rediscache.reactive.repository.mongo.AdapterOperations;
 import co.com.rediscache.model.mutants.Mutants;

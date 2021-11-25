@@ -1,9 +1,10 @@
-package co.com.rediscache.mongodb.mutants;
+package co.com.rediscache.mongodb;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static reactor.core.publisher.Flux.just;
 
 import co.com.rediscache.model.mutants.Mutants;
+import co.com.rediscache.mongodb.MutantsRepositoryAdapter;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

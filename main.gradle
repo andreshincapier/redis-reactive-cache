@@ -17,6 +17,7 @@ subprojects {
         implementation 'io.projectreactor:reactor-core'
         implementation 'io.projectreactor.addons:reactor-extra'
         implementation 'org.slf4j:slf4j-api'
+        implementation 'org.apache.commons:commons-lang3'
 
         testImplementation 'io.projectreactor:reactor-test'
         testImplementation 'org.springframework.boot:spring-boot-starter-test'

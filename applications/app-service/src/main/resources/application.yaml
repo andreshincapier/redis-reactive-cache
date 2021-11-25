@@ -5,7 +5,7 @@ spring:
     name: ivoy-service
   data:
     mongodb:
-      uri: "mongodb+srv://andreshincapier:andreshincapier@cluster0.r2ikq.mongodb.net/dna_analysis?retryWrites=true&w=majority"
+      uri: MONGO_URI_HERE
       auto-index-creation: false
       codec:
         max-in-memory-size: 100MB

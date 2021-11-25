@@ -1,4 +1,4 @@
-package co.com.rediscache.mongodb.mutants;
+package co.com.rediscache.mongodb;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
