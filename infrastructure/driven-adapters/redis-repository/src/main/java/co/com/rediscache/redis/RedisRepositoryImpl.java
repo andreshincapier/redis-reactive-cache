@@ -4,10 +4,12 @@ import co.com.rediscache.model.notification.gateways.RedisRepository;
 import io.lettuce.core.RedisClient;
 import io.lettuce.core.SetArgs;
 import io.lettuce.core.api.reactive.RedisReactiveCommands;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Component;
 import reactor.core.publisher.Mono;
 
+@Slf4j
 @Component
 public class RedisRepositoryImpl implements RedisRepository {
 
@@ -17,6 +19,7 @@ public class RedisRepositoryImpl implements RedisRepository {
 
     @Override
     public Mono<String> save(String key, String value) {
+        log.info("SAVE IN REDIS {}", value);
         if (StringUtils.isAnyBlank(key, value)) {
             return Mono.just("ERROR");
         } else {
@@ -26,6 +29,8 @@ public class RedisRepositoryImpl implements RedisRepository {
 
     @Override
     public Mono<String> get(String key) {
+        log.info("GET FROM REDIS {}", key);
+
         if (StringUtils.isBlank(key)) {
             return Mono.just("ERROR");
         } else {

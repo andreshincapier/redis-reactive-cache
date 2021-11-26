@@ -4,6 +4,7 @@ dependencies {
     implementation project(':redis-repository')
     implementation project(':mongodb-repository')
     implementation project(':reactive-repository-commons')
+    implementation project(':redis-reactive-commons')
 	implementation project(':dynamodb-fallback')
 	implementation project(':reactive-web')
     implementation project(':model')

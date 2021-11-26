@@ -13,7 +13,7 @@ public class UseCaseConfig {
 
     @Bean
     public HandleRedisCacheUseCase handleRedisCacheUseCase(MutantsRepository mutantsRepository,
-        RedisRepository redisRepository) {
+        RedisRepository redisRepository, ObjectMapper objectMapper) {
         return new HandleRedisCacheUseCase(mutantsRepository, redisRepository);
     }
 

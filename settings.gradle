@@ -16,3 +16,5 @@ include ':mongodb-repository'
 project(':mongodb-repository').projectDir = file('./infrastructure/driven-adapters/mongodb-repository')
 include ':redis-repository'
 project(':redis-repository').projectDir = file('./infrastructure/driven-adapters/redis-repository')
+include ':redis-reactive-commons'
+project(':redis-reactive-commons').projectDir = file('./infrastructure/helpers/redis-reactive-commons')

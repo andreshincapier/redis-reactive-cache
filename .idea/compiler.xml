@@ -23,6 +23,8 @@
         <module name="redis-reactive-cache.dynamodb-fallback.test" />
         <module name="redis-reactive-cache.redis-repository.test" />
         <module name="redis-reactive-cache.model.test" />
+        <module name="redis-reactive-cache.redis-reactive-commons.test" />
+        <module name="redis-reactive-cache.redis-reactive-commons.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="14" />
